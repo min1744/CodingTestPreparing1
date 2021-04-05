@@ -14,5 +14,6 @@ public class StrangeCharacter {
             sb.append(cnt % 2 == 0? ss.toLowerCase() : ss.toUpperCase()); 
         }
         System.out.println(sb.toString());
+        System.out.println(Math.abs(-1) % 2 == 1? "Odd" : "Even");
 	}
 }
