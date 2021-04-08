@@ -6,11 +6,11 @@ import java.util.Iterator;
 import java.util.List;
 
 public class RemoveTheSmallestNumber {
-	 public int[] solution(int[] arr) {
-	      if (arr.length <= 1) return new int[]{1};
-	      int min = Arrays.stream(arr).min().getAsInt();
-	      return Arrays.stream(arr).filter(i -> i != min).toArray();
-	  }
+	public int[] solution(int[] arr) {
+		if (arr.length <= 1) return new int[]{1};
+	    int min = Arrays.stream(arr).min().getAsInt();
+	    return Arrays.stream(arr).filter(i -> i != min).toArray();
+	}
 	
 	public static void main(String[] args) {
 		int[] arr = {4,3,2,1};

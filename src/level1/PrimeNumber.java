@@ -24,7 +24,6 @@ public class PrimeNumber {
 		System.out.println("answer : "+answer);
 	}
 	
-	
 	public static boolean isPrime(int num) {
 		for(int l = 2; l <= Math.sqrt(num); l++) {
 			if(num % l == 0) return false;
